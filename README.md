@@ -1,9 +1,9 @@
 # RedfinEMR
  
 ## Overview
-This project aims to Extract and Transform Redfin data with AWS EMR
-I create VPC and then spin up EMR clusters within this VPC, then create Amazon EMR studio and Jupyterlab after which I attached the Jupyter notebook to the provisioned cluster. 
-Then I write Pyspark code in the Jupyter notebook attached to the provisioned EMR to extract data from the Redfin data source, process it and load the transformed data as parquet file into an S3 bucket.
+This project aims to Extract and Transform Redfin data with AWS EMR. <br>
+I create VPC and then spin up EMR clusters within this VPC, then create Amazon EMR studio and Jupyterlab after which I attached the Jupyter notebook to the provisioned cluster. <br>
+Then I write Pyspark code in the Jupyter notebook attached to the provisioned EMR to extract data from the Redfin data source, process it and load the transformed data as parquet file into an S3 bucket. <br>
 ## Services will be using
 1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
 2. AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
