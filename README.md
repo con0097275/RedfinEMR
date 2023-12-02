@@ -9,3 +9,4 @@ THis project aims to Extract and Transform Redfin data with AWS EMR
 ## Data Used
 
 ## Architecture Diagram
+<img src="EMRarchitecture.png">
