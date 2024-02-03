@@ -1,15 +1,23 @@
-# RedfinEMR
+# Redfin Real Estate Analytics
  
 ## Overview
-This project aims to Extract and Transform Redfin data with AWS EMR. <br>
-I create VPC and then spin up EMR clusters within this VPC, then create Amazon EMR studio and Jupyterlab after which I attached the Jupyter notebook to the provisioned cluster. <br>
-Then I write Pyspark code in the Jupyter notebook attached to the provisioned EMR to extract data from the Redfin data source, process it and load the transformed data as parquet file into an S3 bucket. <br>
+This project aims to extract Real Estate data from the redfin datacenter web address, then perform some  <br>
+
+## Architecture Diagram
+<img src="images/architecture.png">
+
 ## Services will be using
 1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
 2. AWS IAM: This is nothing but identity and access management which enables us to manage access to AWS services and resources securely.
 3. AWS EMR: reliably and securely handling the big data use cases like machine learning, deep learning,etc.
-## Dataset Used
-Redfin Dataset (https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_market_tracker/city_market_tracker.tsv000.gz)
+4. Snowflake: is the engine that powers and provides access to the Data Cloud, creating a solution for data warehousing, data lakes, data engineering,etc.
+## Data Used
+Redfin Source (https://www.redfin.com/news/data-center/)
 
-## Architecture Diagram
-<img src="EMRarchitecture.png">
+## Airflow Graph
+<img src="images/pipeline.png">
+
+## Analysis report (Power BI)
+<img src="images/report.png">
+
+
