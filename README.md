@@ -12,7 +12,7 @@ This project aims to extract Real Estate data from the redfin datacenter web add
 3. AWS EMR: reliably and securely handling the big data use cases like machine learning, deep learning,etc.
 4. Snowflake: is the engine that powers and provides access to the Data Cloud, creating a solution for data warehousing, data lakes, data engineering,etc.
 ## Data Used
-Redfin Source (https://www.redfin.com/news/data-center/)
+Redfin Data Source (https://www.redfin.com/news/data-center/)
 
 ## Airflow Graph
 <img src="images/pipeline_.png">
