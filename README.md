@@ -15,7 +15,7 @@ This project aims to extract Real Estate data from the redfin datacenter web add
 Redfin Source (https://www.redfin.com/news/data-center/)
 
 ## Airflow Graph
-<img src="images/pipeline.png">
+<img src="images/pipeline_.png">
 
 ## Analysis report (Power BI)
 <img src="images/report.png">
