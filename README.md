@@ -1,10 +1,16 @@
 # Redfin Real Estate Analytics
  
 ## Overview
-This project aims to extract Real Estate data from the redfin datacenter web address, then implements some ETL pipelines to convert raw data to valuable data. After that, loading valuable data into a Snowfalke Datawarehouse, then connect to Power BI to perform some kind of Analysis <br>
+This project aims to extract Real Estate data from the redfin datacenter web address, then implements some ETL pipelines to convert raw data into valuable data and perform some kind of analysis. <br>
 
 ## Architecture Diagram
 <img src="images/architecture.png">
+
+## Detail
+- First, I extract the data from redfin datacenter ;then implement some ETL pipelines to convert raw data into valuable data
+- Valuable Data was loaded into a snowflake data warehouse
+- Finally, Connecting the snowflake data warehouse with Power BI to do some kind of analysis.
+  Note: Airflow was used to automate EMR jobs and orchestrate the entire ETL pipeline.
 
 ## Services will be using
 1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.
