@@ -1,7 +1,7 @@
 # Redfin Real Estate Analytics
  
 ## Overview
-This project aims to extract Real Estate data from the redfin datacenter web address, then perform some  <br>
+This project aims to extract Real Estate data from the redfin datacenter web address, then implements some ETL pipelines to convert raw data to valuable data. After that, loading valuable data into a Snowfalke Datawarehouse, then connect to Power BI to perform some kind of Analysis <br>
 
 ## Architecture Diagram
 <img src="images/architecture.png">
