@@ -1,7 +1,7 @@
 # Redfin Real Estate Analytics
  
 ## Overview
-This project aims to extract Real Estate data from the redfin datacenter web address, then implements some ETL pipelines to convert raw data into valuable data and perform some kind of analysis. <br>
+This project aims to extract Real Estate data from the redfin datacenter web address, then implements an ETL pipeline to convert raw data into valuable data and perform some kind of analysis. <br>
 
 ## Architecture Diagram
 <img src="images/architecture.png">
