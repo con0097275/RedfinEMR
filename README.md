@@ -25,6 +25,6 @@ Redfin Data Source (https://www.redfin.com/news/data-center/)
 <img src="images/pipeline_.png">
 
 ## Analysis report (Power BI)
-<img src="images/report.png">
+<img src="images/report_.png">
 
 
